@@ -125,7 +125,7 @@ In your view page, import the `DataTable` and use a `foreach` loop to iterate th
         </tr>
     </thead>
     <tbody>
-        @foreach (DataRow row in Model.Rows)
+        @foreach (DataRow datarow in Model.Rows)
         {
             <tr>
                 <td>@dataRow["CityID"]</td>
