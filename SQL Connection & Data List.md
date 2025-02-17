@@ -93,7 +93,7 @@ In the action method for your list page, add the following logic to fetch data f
 
 ```csharp
 public IActionResult CityList(){
-string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+string connectionString = this.configuration.GetConnectionString("ConnectionString");
 SqlConnection connection = new SqlConnection(connectionString);
 connection.Open();
 SqlCommand command = connection.CreateCommand();
