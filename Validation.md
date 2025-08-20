@@ -4,7 +4,6 @@
 Validation in ASP.NET Core MVC can be performed using the following methods:
 
 - **Using ModelState Object (Server Side)**
-- **Using Data Annotations (Server Side)**
 - **Using jQuery (Client Side)**
 
 **Prerequisite:** Ensure that the Add-Edit Page, Model, `lib` folder, and necessary scripts (available at [tinyurl.com/libfolder](https://tinyurl.com/libfolder)) are properly set up.
